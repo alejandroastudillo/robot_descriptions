@@ -30,12 +30,12 @@
   <link name="base_link">
     <visual>
       <geometry>
-        <mesh filename="../meshes/visual/Base.stl"/>
+        <mesh filename="./meshes/visual/Base.dae"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="../meshes/collision/Base.stl"/>
+        <mesh filename="./meshes/collision/Base.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -55,12 +55,12 @@
   <link name="shoulder_link">
     <visual>
       <geometry>
-        <mesh filename="../meshes/visual/Shoulder.stl"/>
+        <mesh filename="./meshes/visual/Shoulder.dae"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="../meshes/collision/Shoulder.stl"/>
+        <mesh filename="./meshes/collision/Shoulder.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -80,12 +80,12 @@
   <link name="upper_arm_link">
     <visual>
       <geometry>
-        <mesh filename="../meshes/visual/UpperArm.stl"/>
+        <mesh filename="./meshes/visual/UpperArm.dae"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="../meshes/collision/UpperArm.stl"/>
+        <mesh filename="./meshes/collision/UpperArm.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -105,12 +105,12 @@
   <link name="forearm_link">
     <visual>
       <geometry>
-        <mesh filename="../meshes/visual/Forearm.stl"/>
+        <mesh filename="./meshes/visual/Forearm.dae"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="../meshes/collision/Forearm.stl"/>
+        <mesh filename="./meshes/collision/Forearm.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -130,12 +130,12 @@
   <link name="wrist_1_link">
     <visual>
       <geometry>
-        <mesh filename="../meshes/visual/Wrist1.stl"/>
+        <mesh filename="./meshes/visual/Wrist1.dae"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="../meshes/collision/Wrist1.stl"/>
+        <mesh filename="./meshes/collision/Wrist1.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -155,12 +155,12 @@
   <link name="wrist_2_link">
     <visual>
       <geometry>
-        <mesh filename="../meshes/visual/Wrist2.stl"/>
+        <mesh filename="./meshes/visual/Wrist2.dae"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="../meshes/collision/Wrist2.stl"/>
+        <mesh filename="./meshes/collision/Wrist2.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -180,12 +180,12 @@
   <link name="wrist_3_link">
     <visual>
       <geometry>
-        <mesh filename="../meshes/visual/Wrist3.stl"/>
+        <mesh filename="./meshes/visual/Wrist3.dae"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="../meshes/collision/Wrist3.stl"/>
+        <mesh filename="./meshes/collision/Wrist3.dae"/>
       </geometry>
     </collision>
     <inertial>
