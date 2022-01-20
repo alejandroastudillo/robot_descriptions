@@ -16,7 +16,7 @@
     <xacro:property name="trunk_iyy" value="0.056579028"/>
     <xacro:property name="trunk_iyz" value="0.000025134"/>
     <xacro:property name="trunk_izz" value="0.064713601"/> -->
-  <material name="black">
+   <material name="black">
     <color rgba="0.0 0.0 0.0 1.0"/>
   </material>
   <material name="blue">
