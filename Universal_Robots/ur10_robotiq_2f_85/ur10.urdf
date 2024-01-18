@@ -282,12 +282,13 @@
     <child link="robotiq_coupler"/>
   </joint>
 
-  <!-- <gazebo reference="robotiq_coupler">
+  <gazebo reference="robotiq_coupler">
     <mu1>0.9</mu1>
     <mu2>0.9</mu2>
     <material>Gazebo/FlatBlack</material>
-  </gazebo> -->
+  </gazebo>
 
+  <!-- Robotiq: base_link -->
   <link name="robotiq_85_base_link">
     <visual>
       <geometry>
@@ -314,6 +315,7 @@
     <child link="robotiq_85_base_link"/>
   </joint>
 
+  <!-- Robotiq: left_knuckle -->
   <link name="robotiq_85_left_knuckle_link">
     <visual>
       <geometry>
@@ -343,6 +345,7 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
+  <!-- Robotiq: right_knuckle -->
   <link name="robotiq_85_right_knuckle_link">
     <visual>
       <geometry>
@@ -372,6 +375,7 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
+  <!-- Robotiq: left_finger -->
   <link name="robotiq_85_left_finger_link">
     <visual>
       <geometry>
@@ -399,6 +403,7 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
+  <!-- Robotiq: right_finger -->
   <link name="robotiq_85_right_finger_link">
     <visual>
       <geometry>
@@ -426,6 +431,7 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
+  <!-- Robotiq: left_inner_knuckle -->
   <link name="robotiq_85_left_inner_knuckle_link">
     <visual>
       <geometry>
@@ -455,6 +461,7 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
+  <!-- Robotiq: right_inner_knuckle -->
   <link name="robotiq_85_right_inner_knuckle_link">
     <visual>
       <geometry>
@@ -484,6 +491,7 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
+  <!-- Robotiq: left_finger_tip -->
   <link name="robotiq_85_left_finger_tip_link">
     <visual>
       <geometry>
@@ -513,6 +521,7 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
+  <!-- Robotiq: right_finger_tip -->
   <link name="robotiq_85_right_finger_tip_link">
     <visual>
       <geometry>
@@ -541,6 +550,8 @@
     <limit lower="-0.80285" upper="0.05" velocity="0.5" effort="1000"/>
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
+
+  <!-- SMALL CUBE FOR GRIPPER PLUGIN -->
 
   <link name="EE_robotiq_2f85">
     <inertial>
