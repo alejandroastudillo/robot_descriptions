@@ -754,7 +754,7 @@
   </joint>
 
   <joint name="robotiq_85_base_joint" type="fixed">
-    <origin xyz="0 0 0.004" rpy="0 -1.57079632679 3.141592653"/>
+    <origin xyz="0 0 0.004" rpy="0 0 3.141592653"/>
     <parent link="tool0"/>
     <child link="robotiq_85_base_link"/>
   </joint>
