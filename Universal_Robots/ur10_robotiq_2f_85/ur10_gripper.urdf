@@ -12,15 +12,12 @@
   <link name="base_link">
     <visual>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/visual/base.dae"/>
+        <mesh filename="./meshes/visual/Base.dae"/>
       </geometry>
-      <!-- <material name="LightGrey">
-        <color rgba="0.7 0.7 0.7 1.0"/>
-      </material> -->
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/collision/base.stl"/>
+        <mesh filename="./meshes/collision/Base.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -40,15 +37,12 @@
   <link name="shoulder_link">
     <visual>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/visual/shoulder.dae"/>
+        <mesh filename="./meshes/visual/Shoulder.dae"/>
       </geometry>
-      <!-- <material name="LightGrey">
-        <color rgba="0.7 0.7 0.7 1.0"/>
-      </material> -->
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/collision/shoulder.stl"/>
+        <mesh filename="./meshes/collision/Shoulder.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -68,15 +62,12 @@
   <link name="upper_arm_link">
     <visual>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/visual/upperarm.dae"/>
+        <mesh filename="./meshes/visual/UpperArm.dae"/>
       </geometry>
-      <!-- <material name="LightGrey">
-        <color rgba="0.7 0.7 0.7 1.0"/>
-      </material> -->
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/collision/upperarm.stl"/>
+        <mesh filename="./meshes/collision/UpperArm.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -96,15 +87,12 @@
   <link name="forearm_link">
     <visual>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/visual/forearm.dae"/>
+        <mesh filename="./meshes/visual/Forearm.dae"/>
       </geometry>
-      <!-- <material name="LightGrey">
-        <color rgba="0.7 0.7 0.7 1.0"/>
-      </material> -->
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/collision/forearm.stl"/>
+        <mesh filename="./meshes/collision/Forearm.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -124,15 +112,12 @@
   <link name="wrist_1_link">
     <visual>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/visual/wrist1.dae"/>
+        <mesh filename="./meshes/visual/Wrist3.dae"/>
       </geometry>
-      <!-- <material name="LightGrey">
-        <color rgba="0.7 0.7 0.7 1.0"/>
-      </material> -->
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/collision/wrist1.stl"/>
+        <mesh filename="./meshes/collision/Wrist3.dae"/>
       </geometry>
     </collision>
     <inertial>
