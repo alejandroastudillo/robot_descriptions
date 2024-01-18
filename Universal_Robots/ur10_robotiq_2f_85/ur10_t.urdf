@@ -282,11 +282,11 @@
     <child link="robotiq_coupler"/>
   </joint>
 
-  <!-- <gazebo reference="robotiq_coupler">
+  <gazebo reference="robotiq_coupler">
     <mu1>0.9</mu1>
     <mu2>0.9</mu2>
     <material>Gazebo/FlatBlack</material>
-  </gazebo> -->
+  </gazebo>
 
   <link name="robotiq_85_base_link">
     <visual>
@@ -313,7 +313,7 @@
     <parent link="robotiq_coupler"/>
     <child link="robotiq_85_base_link"/>
   </joint>
-
+<!-- 
   <link name="robotiq_85_left_knuckle_link">
     <visual>
       <geometry>
@@ -561,7 +561,7 @@
     <limit effort="10000" lower="0.0" upper="0.0" velocity="0.0"/>
     <axis xyz="1 0 0" />
     <origin xyz="0.128 0.0 0.0" rpy="0 0 0"/>
-  </joint>
+  </joint> -->
 
 
   <link name="world"/>
