@@ -314,7 +314,7 @@
     <child link="robotiq_85_base_link"/>
   </joint>
 
-  <link name="robotiq_85_left_knuckle_link">
+  <!-- <link name="robotiq_85_left_knuckle_link">
     <visual>
       <geometry>
         <mesh filename="./meshes/robotiq2f85/visual/robotiq_85_knuckle_link.dae"/>
@@ -561,7 +561,7 @@
     <limit effort="10000" lower="0.0" upper="0.0" velocity="0.0"/>
     <axis xyz="1 0 0" />
     <origin xyz="0.128 0.0 0.0" rpy="0 0 0"/>
-  </joint>
+  </joint> -->
 
 
   <link name="world"/>
