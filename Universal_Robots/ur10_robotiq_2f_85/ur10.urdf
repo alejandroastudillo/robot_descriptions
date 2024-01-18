@@ -194,12 +194,13 @@
       <inertia ixx="0.000526462289415" ixy="0.0" ixz="0.0" iyy="0.000526462289415" iyz="0.0" izz="0.000568125"/>
     </inertial>
   </link>
-  <joint name="ee_fixed_joint" type="fixed">
+  <!-- <joint name="ee_fixed_joint" type="fixed">
     <parent link="wrist_3_link"/>
     <child link="ee_link"/>
     <origin rpy="0.0 0.0 1.570796325" xyz="0.0 0.0922 0.0"/>
   </joint>
-  <link name="ee_link"/>
+  <link name="ee_link"/> -->
+
   <transmission name="shoulder_pan_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="shoulder_pan_joint"/>
@@ -282,11 +283,11 @@
     <child link="robotiq_coupler"/>
   </joint>
 
-  <!-- <gazebo reference="robotiq_coupler">
+  <gazebo reference="robotiq_coupler">
     <mu1>0.9</mu1>
     <mu2>0.9</mu2>
     <material>Gazebo/FlatBlack</material>
-  </gazebo> -->
+  </gazebo>
 
   <link name="robotiq_85_base_link">
     <visual>
