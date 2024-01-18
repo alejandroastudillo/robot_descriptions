@@ -609,7 +609,8 @@
     </actuator>
   </transmission>
   <joint name="robot_tool0_gripper_robotiq_arg2f_base_link" type="fixed">
-    <origin rpy="1.57079632679 -1.57079632679 0" xyz="0 0 0"/>
+    <!-- <origin rpy="1.57079632679 -1.57079632679 0" xyz="0 0 0"/> -->
+    <origin xyz="0 0 0.004" rpy="0 0 -1.57079632679" />
     <parent link="tool0"/>
     <child link="gripper_robotiq_arg2f_base_link"/>
   </joint>
