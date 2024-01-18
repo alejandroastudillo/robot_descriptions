@@ -257,7 +257,7 @@
     <child link="tool0"/>
   </joint>
 
-  <link name="robotiq_coupler">
+  <!-- <link name="robotiq_coupler">
     <visual>
       <geometry>
         <mesh filename="./meshes/robotiq2f85/robotiq_85_coupler.stl" />
@@ -288,7 +288,6 @@
     <material>Gazebo/FlatBlack</material>
   </gazebo>
 
-  <!-- Robotiq: base_link -->
   <link name="robotiq_85_base_link">
     <visual>
       <geometry>
@@ -315,7 +314,6 @@
     <child link="robotiq_85_base_link"/>
   </joint>
 
-  <!-- Robotiq: left_knuckle -->
   <link name="robotiq_85_left_knuckle_link">
     <visual>
       <geometry>
@@ -345,7 +343,6 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
-  <!-- Robotiq: right_knuckle -->
   <link name="robotiq_85_right_knuckle_link">
     <visual>
       <geometry>
@@ -375,7 +372,6 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
-  <!-- Robotiq: left_finger -->
   <link name="robotiq_85_left_finger_link">
     <visual>
       <geometry>
@@ -403,7 +399,6 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
-  <!-- Robotiq: right_finger -->
   <link name="robotiq_85_right_finger_link">
     <visual>
       <geometry>
@@ -431,7 +426,6 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
-  <!-- Robotiq: left_inner_knuckle -->
   <link name="robotiq_85_left_inner_knuckle_link">
     <visual>
       <geometry>
@@ -461,7 +455,6 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
-  <!-- Robotiq: right_inner_knuckle -->
   <link name="robotiq_85_right_inner_knuckle_link">
     <visual>
       <geometry>
@@ -491,7 +484,6 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
-  <!-- Robotiq: left_finger_tip -->
   <link name="robotiq_85_left_finger_tip_link">
     <visual>
       <geometry>
@@ -521,7 +513,6 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
-  <!-- Robotiq: right_finger_tip -->
   <link name="robotiq_85_right_finger_tip_link">
     <visual>
       <geometry>
@@ -551,8 +542,6 @@
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
 
-  <!-- SMALL CUBE FOR GRIPPER PLUGIN -->
-
   <link name="EE_robotiq_2f85">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -572,7 +561,7 @@
     <limit effort="10000" lower="0.0" upper="0.0" velocity="0.0"/>
     <axis xyz="1 0 0" />
     <origin xyz="0.128 0.0 0.0" rpy="0 0 0"/>
-  </joint>
+  </joint> -->
 
 
   <link name="world"/>
