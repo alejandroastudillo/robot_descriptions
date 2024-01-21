@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<robot name="potted_meat_can">
+
+  <link name="body">
+    <collision>
+        <origin xyz= "0.0 0.0 0.0" rpy="0 0 0"/>
+        <geometry>
+            <mesh filename="./meshes/potted_meat_can.dae" />
+        </geometry>
+        <surface>
+        <contact>
+          <collide_without_contact>false</collide_without_contact>
+        </contact>
+        </surface>
+    </collision>
+
+    <visual name='visual'>
+        <origin xyz= "0.0 0.0 0.0" rpy="0 0 0"/>
+        <geometry>
+            <mesh filename="./meshes/potted_meat_can.dae" />
+        </geometry>
+    </visual>
+
+    <inertial>
+      <origin xyz= "-0.032 -0.025 0.035" rpy="0 0 0"/>
+      <mass value="0.200"/>
+      <inertia ixx="0.2287" ixy="0.0" ixz="0.0" iyy="0.1628" iyz="0.0" izz="0.12554"/>
+    </inertial>
+  </link>
+  
+</robot>
+   

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<robot name="bin">
+
+  <link name="body">
+    <collision>
+        <origin xyz= "0.0 0.0 0.0" rpy="0 0 0"/>
+        <geometry>
+            <mesh filename="./meshes/bin.obj" scale="1 1 1"/>
+        </geometry>
+        <surface>
+        <contact>
+          <collide_without_contact>false</collide_without_contact>
+        </contact>
+        </surface>
+    </collision>
+
+    <visual name='visual'>
+        <origin xyz= "0.0 0.0 0.0" rpy="0 0 0"/>
+        <geometry>
+            <mesh filename="./meshes/bin.obj" scale="1 1 1"/>
+        </geometry>
+        <material name='binmaterial'>
+          <script>
+            <uri>./materials/scripts/bin.material</uri>
+            <name>Gazebo/BinTexture</name>
+          </script>
+        </material>
+    </visual>
+
+    <inertial>
+      <origin xyz= "0.0 0.0 0.0" rpy="0 0 0"/>
+      <mass value="1.000"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0" />
+    </inertial>
+  </link>
+  
+</robot>
+   
