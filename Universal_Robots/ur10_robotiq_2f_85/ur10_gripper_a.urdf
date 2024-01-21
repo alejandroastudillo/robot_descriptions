@@ -300,7 +300,7 @@
   </link>
 
   <joint name="robotiq_coupler_joint" type="fixed">
-    <origin xyz="0 0 0.004" rpy="0 0 -1.57079632679" />
+    <origin xyz="0 0 0.004" rpy="0 0 0" />
     <parent link="tool0"/>
     <child link="robotiq_coupler"/>
   </joint>
