@@ -297,12 +297,12 @@
   <link name="robotiq_85_base_link">
     <visual>
       <geometry>
-        <mesh filename="./meshes/robotiq2f85/visual/robotiq_85_base_link.dae"/>
+        <mesh filename="./meshes/robotiq2f85/robotiq_85_base_link_fine.STL" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./meshes/robotiq2f85/collision/robotiq_85_base_link.stl"/>
+        <mesh filename="./meshes/robotiq2f85/robotiq_85_base_link_coarse.STL" />
       </geometry>
     </collision>
     <inertial>
@@ -324,12 +324,14 @@
   <link name="robotiq_85_left_knuckle_link">
     <visual>
       <geometry>
-        <mesh filename="./meshes/robotiq2f85/visual/robotiq_85_knuckle_link.dae"/>
+        <!-- <mesh filename="./meshes/robotiq2f85/visual/robotiq_85_knuckle_link.dae"/> -->
+        <mesh filename="./meshes/robotiq2f85/outer_knuckle_coarse.stl"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./meshes/robotiq2f85/collision/robotiq_85_knuckle_link.stl"/>
+        <!-- <mesh filename="./meshes/robotiq2f85/collision/robotiq_85_knuckle_link.stl"/> -->
+        <mesh filename="./meshes/robotiq2f85/outer_knuckle_coarse.stl"/>
       </geometry>
     </collision>
     <inertial>
