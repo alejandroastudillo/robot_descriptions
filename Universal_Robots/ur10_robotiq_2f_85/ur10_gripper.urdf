@@ -137,7 +137,7 @@
   <link name="wrist_2_link">
     <visual>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/visual/wrist2.dae"/>
+        <mesh filename="./meshes/ur10/visual/wrist2.dae"/>
       </geometry>
       <!-- <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -145,7 +145,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/collision/wrist2.stl"/>
+        <mesh filename="./meshes/meshes/ur10/collision/wrist2.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -165,7 +165,7 @@
   <link name="wrist_3_link">
     <visual>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/visual/wrist3.dae"/>
+        <mesh filename="./meshes/ur10/visual/wrist3.dae"/>
       </geometry>
       <!-- <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -173,7 +173,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./ur_description/meshes/ur10/collision/wrist3.stl"/>
+        <mesh filename="./meshes/ur10/collision/wrist3.stl"/>
       </geometry>
     </collision>
     <inertial>
