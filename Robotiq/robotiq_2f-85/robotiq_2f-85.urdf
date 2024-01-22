@@ -1,5 +1,5 @@
-<robot
-  name="robotiq_arg85_description">
+<?xml version="1.0"?>
+<robot  name="robotiq_arg85_description">
   <link
     name="robotiq_85_base_link">
     <inertial>
