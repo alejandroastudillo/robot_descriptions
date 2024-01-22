@@ -112,12 +112,12 @@
   <link name="wrist_1_link">
     <visual>
       <geometry>
-        <mesh filename="./meshes/visual/Wrist3.dae"/>
+        <mesh filename="./meshes/visual/Wrist1.dae"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./meshes/collision/Wrist3.dae"/>
+        <mesh filename="./meshes/collision/Wrist1.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -137,15 +137,12 @@
   <link name="wrist_2_link">
     <visual>
       <geometry>
-        <mesh filename="./meshes/ur10/visual/wrist2.dae"/>
+        <mesh filename="./meshes/visual/Wrist2.dae"/>
       </geometry>
-      <!-- <material name="LightGrey">
-        <color rgba="0.7 0.7 0.7 1.0"/>
-      </material> -->
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./meshes/meshes/ur10/collision/wrist2.stl"/>
+        <mesh filename="./meshes/collision/Wrist2.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -165,15 +162,12 @@
   <link name="wrist_3_link">
     <visual>
       <geometry>
-        <mesh filename="./meshes/ur10/visual/wrist3.dae"/>
+        <mesh filename="./meshes/visual/Wrist3.dae"/>
       </geometry>
-      <!-- <material name="LightGrey">
-        <color rgba="0.7 0.7 0.7 1.0"/>
-      </material> -->
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./meshes/ur10/collision/wrist3.stl"/>
+        <mesh filename="./meshes/collision/Wrist3.dae"/>
       </geometry>
     </collision>
     <inertial>
@@ -249,27 +243,6 @@
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
-  <gazebo reference="shoulder_link">
-    <selfCollide>true</selfCollide>
-  </gazebo>
-  <gazebo reference="upper_arm_link">
-    <selfCollide>true</selfCollide>
-  </gazebo>
-  <gazebo reference="forearm_link">
-    <selfCollide>true</selfCollide>
-  </gazebo>
-  <gazebo reference="wrist_1_link">
-    <selfCollide>true</selfCollide>
-  </gazebo>
-  <gazebo reference="wrist_3_link">
-    <selfCollide>true</selfCollide>
-  </gazebo>
-  <gazebo reference="wrist_2_link">
-    <selfCollide>true</selfCollide>
-  </gazebo>
-  <gazebo reference="ee_link">
-    <selfCollide>true</selfCollide>
-  </gazebo>
   <!-- ROS base_link to UR 'Base' Coordinates transform -->
   <link name="robot_base"/>
   <joint name="robot_base_link-base_fixed_joint" type="fixed">
@@ -488,7 +461,7 @@
     <parent link="robotiq_85_base_link"/>
     <child link="robotiq_85_left_inner_knuckle_link"/>
     <axis xyz="0 0 1"/>
-    <origin xyz="0.06142 0.0127 0" rpy="${pi} 0.0 0.0" />
+    <origin xyz="0.06142 0.0127 0" rpy="3.141592654 0.0 0.0" />
     <limit lower="-0.05" upper="0.80285" velocity="0.5" effort="1000"/>
     <dynamics damping="1.0" friction="1.0"/>
   </joint>
