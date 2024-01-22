@@ -297,12 +297,12 @@
   <link name="robotiq_85_base_link">
     <visual>
       <geometry>
-        <mesh filename="./meshes/robotiq2f85/robotiq_85_base_link_fine.STL" />
+        <mesh filename="./meshes/robotiq2f85/visual/robotiq_85_base_link.dae"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./meshes/robotiq2f85/robotiq_85_base_link_coarse.STL" />
+        <mesh filename="./meshes/robotiq2f85/collision/robotiq_85_base_link.stl"/>
       </geometry>
     </collision>
     <inertial>
