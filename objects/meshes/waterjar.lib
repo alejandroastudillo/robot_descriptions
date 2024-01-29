@@ -3,11 +3,12 @@
 # File created: 01/29/2024 20:55:26
 
 newmtl material0
-	Ka 0 0 0
-	Kd 0.8 0.8 0.8
+	Ka 0.2 0.2 0.2
+	Kd 1 1 1
 	Ke 0 0 0
 	illum 2
-	Ks 0 0 0
-	Ns 0.3
+	Ks 0.2 0.2 0.2
+	Ns 20
 	d 1
 	Tr 0
+	map_Kd water_jar_texture_map.png
