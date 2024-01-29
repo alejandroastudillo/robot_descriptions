@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot name="water_jar">
+
+  <link name="body">
+    <collision>
+        <origin xyz= "0.0 0.0 0.0" rpy="0 0 0"/>
+        <geometry>
+            <mesh filename="./meshes/water_jar.obj" scale="0.6 0.6 1"/>
+        </geometry>
+        <surface>
+        <contact>
+          <collide_without_contact>false</collide_without_contact>
+        </contact>
+        </surface>
+    </collision>
+
+    <visual name='visual'>
+        <origin xyz= "0.0 0.0 0.0" rpy="0 0 0"/>
+        <geometry>
+            <mesh filename="./meshes/water_jar.obj" scale="0.6 0.6 1"/>
+        </geometry>
+    </visual>
+
+    <inertial>
+      <origin xyz= "0.0 0.035 0.035" rpy="0 0 0"/>
+      <mass value="0.255"/>
+      <inertia ixx="0.01336667" ixy="0.0" ixz="0.0" iyy="0.013266667" iyz="0.0" izz="0.01416667"/>
+    </inertial>
+
+  </link>
+  
+</robot>
+   

@@ -6,6 +6,14 @@
     <up_axis>Y_UP</up_axis>
   </asset>
   <library_lights />
+  <library_images>
+    <image id="object_1" name="object_1">
+      <init_from>../materials/coke.png</init_from>
+    </image>
+    <image id="object_2" name="object_2">
+      <init_from>../materials/coke.png</init_from>
+    </image>
+  </library_images>
   <library_materials>
     <material id="LP" name="LP">
       <instance_effect url="#effect-LP" />
@@ -157,14 +165,6 @@
       </mesh>
     </geometry>
   </library_geometries>
-  <library_images>
-    <image id="object_1">
-      <init_from>../materials/coke.png</init_from>
-    </image>
-    <image id="object_2">
-      <init_from>../materials/coke.png</init_from>
-    </image>
-  </library_images>
   <library_visual_scenes>
     <visual_scene id="Scene">
       <node id="LPCoke_Cube.000" sid="LPCoke_Cube.000" name="LPCoke_Cube.000" type="NODE">
