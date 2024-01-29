@@ -5,7 +5,7 @@
     <collision>
         <origin xyz= "0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
-            <mesh filename="meshes/water_jar.dae" scale="0.6 0.6 1"/>
+            <mesh filename="./meshes/water_jar.obj" scale="0.6 0.6 1"/>
         </geometry>
         <surface>
         <contact>
@@ -17,7 +17,7 @@
     <visual name='visual'>
         <origin xyz= "0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
-            <mesh filename="meshes/water_jar.dae" scale="0.6 0.6 1"/>
+            <mesh filename="./meshes/water_jar.obj" scale="0.6 0.6 1"/>
         </geometry>
     </visual>
 
