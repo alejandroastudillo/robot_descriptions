@@ -1,0 +1,13 @@
+material WaterjarMaterial{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture ../textures/waterjar.png
+                scale 1 1
+            }
+        }   
+    }
+}

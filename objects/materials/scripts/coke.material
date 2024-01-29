@@ -1,4 +1,4 @@
-material YourMaterialName{
+material CokeMaterial{
     technique
     {
         pass
