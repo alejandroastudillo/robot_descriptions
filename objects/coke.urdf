@@ -5,7 +5,7 @@
     <collision>
         <origin xyz= "0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
-            <mesh filename="./meshes/coke.obj" />
+            <mesh filename="./meshes/coke.obj" scale="1 1 0.8"/>
         </geometry>
         <surface>
         <contact>
@@ -17,14 +17,20 @@
     <visual name='visual'>
         <origin xyz= "0.0 0.0 0.0" rpy="0 0 0"/>
         <geometry>
-            <mesh filename="./meshes/coke.obj" />
+            <mesh filename="./meshes/coke.obj" scale="1 1 0.8"/>
         </geometry>
+        <material name='cokematerial'>
+          <script>
+            <uri>./materials/scripts/coke.material</uri>
+            <name>Gazebo/CokeTexture</name>
+          </script>
+        </material>
     </visual>
 
     <inertial>
       <origin xyz= "0.0 0.0 0.075" rpy="0 0 0"/>
       <mass value="0.250"/>
-      <inertia ixx="0.01336667" ixy="0.0" ixz="0.0" iyy="0.010866667" iyz="0.0" izz="0.01416667"/>
+      <inertia ixx="0.1336667" ixy="0.0" ixz="0.0" iyy="0.10866667" iyz="0.0" izz="0.1416667"/>
     </inertial>
   </link>
   
