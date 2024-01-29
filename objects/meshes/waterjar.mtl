@@ -10,3 +10,9 @@ map_Kd water_jar_texture_map.png
 
 # Kd: Diffuse reflectivity.
 Kd 1.000000 1.000000 1.000000
+
+newmtl DarkBlueMaterial
+Ka 0 0 0.2       # Ambient color
+Kd 0 0 0.5       # Diffuse color
+Ks 0.5 0.5 0.5   # Specular color
+Ns 10.0          # Specular exponent
